@@ -47,7 +47,7 @@ header{
 
 /*Hero*/
 #hero{
-    background-image: url(assets/IMG_0159.JPG);
+    background-image: url(assets/Hero.PNG);
     background-size: cover;
     background-position: center;
     color: white;
@@ -175,4 +175,18 @@ header{
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
+}
+footer {
+    background-color: var(--color-secundario);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+footer a{
+    color: var(--color-cta);
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+footer a:hover {
+    text-decoration: underline;
 }
