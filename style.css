@@ -190,3 +190,23 @@ footer a{
 footer a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 374px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content h1 {
+        font-size: 1.8rem;
+    }
+    .lista-productos {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 768px){
+    .lista-productos{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
