@@ -1,0 +1,85 @@
+/* Reset básico */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat' , sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+/*Variables*/
+:root {
+    --color-principal: #e63946;
+    --color-secundario:#1d3557;
+    --color-cta: #f1faee;
+}
+
+/*Header y nav*/
+header{
+    background-color: var(--color-secundario);
+    padding: 1rem 2rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*Hero*/
+#hero{
+    background-image: url(assets/IMG_0159.JPG);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero-content h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.hero-content p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-cta{
+    display: inline-block;
+    background-color: var(--color-principal);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
